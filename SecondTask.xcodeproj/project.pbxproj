@@ -12,9 +12,6 @@
 		2FAECBE32BA8D95900E76B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAECBE12BA8D95900E76B2C /* Main.storyboard */; };
 		2FAECBE52BA8D95A00E76B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAECBE42BA8D95A00E76B2C /* Assets.xcassets */; };
 		2FAECBE82BA8D95A00E76B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAECBE62BA8D95A00E76B2C /* LaunchScreen.storyboard */; };
-		2FAECBF32BA8D95B00E76B2C /* SecondTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAECBF22BA8D95B00E76B2C /* SecondTaskTests.swift */; };
-		2FAECBFD2BA8D95B00E76B2C /* SecondTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAECBFC2BA8D95B00E76B2C /* SecondTaskUITests.swift */; };
-		2FAECBFF2BA8D95B00E76B2C /* SecondTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAECBFE2BA8D95B00E76B2C /* SecondTaskUITestsLaunchTests.swift */; };
 		2FAECC0C2BA8DC3C00E76B2C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAECC0B2BA8DC3C00E76B2C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +41,7 @@
 		2FAECBE72BA8D95A00E76B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FAECBE92BA8D95A00E76B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FAECBEE2BA8D95B00E76B2C /* SecondTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FAECBF22BA8D95B00E76B2C /* SecondTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTaskTests.swift; sourceTree = "<group>"; };
 		2FAECBF82BA8D95B00E76B2C /* SecondTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FAECBFC2BA8D95B00E76B2C /* SecondTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTaskUITests.swift; sourceTree = "<group>"; };
-		2FAECBFE2BA8D95B00E76B2C /* SecondTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2FAECC0B2BA8DC3C00E76B2C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				2FAECBDA2BA8D95900E76B2C /* SecondTask */,
-				2FAECBF12BA8D95B00E76B2C /* SecondTaskTests */,
-				2FAECBFB2BA8D95B00E76B2C /* SecondTaskUITests */,
 				2FAECBD92BA8D95900E76B2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				2FAECBE92BA8D95A00E76B2C /* Info.plist */,
 			);
 			path = SecondTask;
-			sourceTree = "<group>";
-		};
-		2FAECBF12BA8D95B00E76B2C /* SecondTaskTests */ = {
-			isa = PBXGroup;
-			children = (
-				2FAECBF22BA8D95B00E76B2C /* SecondTaskTests.swift */,
-			);
-			path = SecondTaskTests;
-			sourceTree = "<group>";
-		};
-		2FAECBFB2BA8D95B00E76B2C /* SecondTaskUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2FAECBFC2BA8D95B00E76B2C /* SecondTaskUITests.swift */,
-				2FAECBFE2BA8D95B00E76B2C /* SecondTaskUITestsLaunchTests.swift */,
-			);
-			path = SecondTaskUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FAECBF32BA8D95B00E76B2C /* SecondTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FAECBFD2BA8D95B00E76B2C /* SecondTaskUITests.swift in Sources */,
-				2FAECBFF2BA8D95B00E76B2C /* SecondTaskUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

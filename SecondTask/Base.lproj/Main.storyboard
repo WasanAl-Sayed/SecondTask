@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,39 +19,12 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="C3K-ZO-RwU">
                                 <rect key="frame" x="40.666666666666657" y="159" width="312" height="194"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-4s-8Cq">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SALES SUMMARY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGK-r4-udu">
                                         <rect key="frame" x="0.0" y="0.0" width="312" height="24"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cQA-UU-rQT">
-                                                <rect key="frame" x="0.0" y="6" width="50" height="12"/>
-                                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="MTA-nO-8aC"/>
-                                                </constraints>
-                                                <imageReference key="image" image="minus" catalog="system" symbolScale="default"/>
-                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" weight="ultraLight">
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                                </preferredSymbolConfiguration>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SALES SUMMARY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGK-r4-udu">
-                                                <rect key="frame" x="71" y="0.0" width="170" height="24"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cS4-mE-QaB">
-                                                <rect key="frame" x="262" y="6" width="50" height="12"/>
-                                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="axB-Sw-rfc"/>
-                                                </constraints>
-                                                <imageReference key="image" image="minus" catalog="system" symbolScale="default"/>
-                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" weight="ultraLight">
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                                </preferredSymbolConfiguration>
-                                            </imageView>
-                                        </subviews>
-                                    </stackView>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Look at Yesterday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXF-px-K7b">
                                         <rect key="frame" x="0.0" y="39" width="312" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -229,12 +201,32 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YZb-j8-Ve3">
+                                <rect key="frame" x="46" y="171" width="40" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="MJV-Gh-pNN"/>
+                                    <constraint firstAttribute="width" constant="40" id="fw1-gJ-FEC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SaB-fI-kdP">
+                                <rect key="frame" x="307" y="171" width="40" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="RnQ-Lz-XjD"/>
+                                    <constraint firstAttribute="height" constant="1" id="y3s-34-k5j"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="C3K-ZO-RwU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="1fN-GX-9Zn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SaB-fI-kdP" secondAttribute="trailing" constant="30" id="KdV-sa-e4F"/>
+                            <constraint firstItem="SaB-fI-kdP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="112" id="asF-q5-Yd7"/>
                             <constraint firstItem="C3K-ZO-RwU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ba8-Ww-U2t"/>
+                            <constraint firstItem="YZb-j8-Ve3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="feX-mj-Ufa"/>
+                            <constraint firstItem="YZb-j8-Ve3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="112" id="sxt-YA-DXA"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -244,8 +236,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="checkmark.circle" catalog="system" width="128" height="123"/>
-        <image name="minus" catalog="system" width="128" height="26"/>
+        <image name="checkmark.circle" catalog="system" width="32" height="32"/>
         <image name="xmark.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
